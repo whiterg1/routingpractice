@@ -3,11 +3,11 @@ import React from 'react'
 export const WordNum = (props) => {
 
 //Sets the default variable of num as true. If the prop that is passed is a number it remains true.    
-let num = true
+var num = true
 
 //If the prop being passed is not a number then the value of num is changed to false.
-if(isNaN(props.value)== true){
-    let num = false;
+if(isNaN(props.value) == true){
+    var num = false;
 }
     return (
         <div>
